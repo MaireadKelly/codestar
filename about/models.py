@@ -6,5 +6,5 @@ class About(models.Model):
     content = models.TextField()
     updated_on = models.DateTimeField(auto_now=True)
 
-    def__str__(self):
-    return self.title
+    def __str__(self):
+       return self.title
